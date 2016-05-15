@@ -1,2 +1,2 @@
 # consoleshop
-Console shop. Server client application. Java.
+Console shop. Server client application. Java. Sockets.
