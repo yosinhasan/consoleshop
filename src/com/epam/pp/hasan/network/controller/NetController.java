@@ -1,10 +1,10 @@
 package com.epam.pp.hasan.network.controller;
 
-import com.epam.pp.hasan.network.actions.Action;
-import com.epam.pp.hasan.network.actions.ActionHolder;
+import com.epam.pp.hasan.network.action.Action;
+import com.epam.pp.hasan.network.action.ActionHolder;
 import com.epam.pp.hasan.network.type.Type;
-import com.epam.pp.hasan.utils.Request;
-import com.epam.pp.hasan.network.views.ViewResolver;
+import com.epam.pp.hasan.util.Request;
+import com.epam.pp.hasan.network.view.ViewResolver;
 
 import java.util.Map;
 
@@ -40,7 +40,7 @@ public class NetController {
     }
 
     /**
-     * Starting actions.
+     * Starting action.
      */
     public final String start(String actionName, Map<String, String> query) {
         if (query != null) {

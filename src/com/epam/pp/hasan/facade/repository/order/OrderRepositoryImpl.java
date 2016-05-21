@@ -3,8 +3,8 @@ package com.epam.pp.hasan.facade.repository.order;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-import com.epam.pp.hasan.entities.Order;
-import com.epam.pp.hasan.utils.Date;
+import com.epam.pp.hasan.entity.Order;
+import com.epam.pp.hasan.util.Date;
 
 /**
  * @author Yosin_Hasan

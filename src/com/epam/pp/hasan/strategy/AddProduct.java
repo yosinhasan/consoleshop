@@ -1,6 +1,7 @@
 package com.epam.pp.hasan.strategy;
 
-import com.epam.pp.hasan.entities.Product;
+import com.epam.pp.hasan.entity.Product;
+import com.epam.pp.hasan.strategy.ProductStrategy;
 
 /**
  * 
@@ -25,7 +26,7 @@ public class AddProduct {
 	 * 
 	 * @return Product
 	 */
-	public final Product getGeneratedProduct() {
-		return strategy.addProduct();
+	public final Product getGeneratedProduct(Class productClass) {
+		return strategy.addProduct(productClass);
 	}
 }

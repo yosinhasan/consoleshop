@@ -1,6 +1,6 @@
 package com.epam.pp.hasan.strategy;
 
-import com.epam.pp.hasan.entities.Product;
+import com.epam.pp.hasan.entity.Product;
 
 /**
  * 
@@ -13,5 +13,5 @@ public interface ProductStrategy {
 	 * 
 	 * @return Product
 	 */
-	Product addProduct();
+	Product addProduct(Class productClass);
 }

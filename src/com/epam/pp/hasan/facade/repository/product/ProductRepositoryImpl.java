@@ -2,7 +2,7 @@ package com.epam.pp.hasan.facade.repository.product;
 
 import java.util.HashMap;
 
-import com.epam.pp.hasan.entities.Product;
+import com.epam.pp.hasan.entity.Product;
 
 /**
  * 

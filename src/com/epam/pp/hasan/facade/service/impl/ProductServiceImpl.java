@@ -1,6 +1,6 @@
 package com.epam.pp.hasan.facade.service.impl;
 
-import com.epam.pp.hasan.entities.Product;
+import com.epam.pp.hasan.entity.Product;
 import com.epam.pp.hasan.facade.repository.product.ProductRepository;
 import com.epam.pp.hasan.facade.service.ProductService;
 

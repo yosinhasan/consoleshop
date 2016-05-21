@@ -1,6 +1,6 @@
 package com.epam.pp.hasan.facade.service.impl;
 
-import com.epam.pp.hasan.entities.Order;
+import com.epam.pp.hasan.entity.Order;
 import com.epam.pp.hasan.facade.repository.order.OrderRepository;
 import com.epam.pp.hasan.facade.service.OrderService;
 

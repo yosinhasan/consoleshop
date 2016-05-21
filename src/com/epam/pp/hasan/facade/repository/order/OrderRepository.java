@@ -4,7 +4,7 @@ package com.epam.pp.hasan.facade.repository.order;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-import com.epam.pp.hasan.entities.Order;
+import com.epam.pp.hasan.entity.Order;
 
 /**
  * Interface For the Order DAO

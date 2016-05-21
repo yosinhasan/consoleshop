@@ -1,8 +1,8 @@
 
 package com.epam.pp.hasan.facade;
 
-import com.epam.pp.hasan.entities.Order;
-import com.epam.pp.hasan.entities.Product;
+import com.epam.pp.hasan.entity.Order;
+import com.epam.pp.hasan.entity.Product;
 import com.epam.pp.hasan.facade.service.BasketService;
 import com.epam.pp.hasan.facade.service.OrderService;
 import com.epam.pp.hasan.facade.service.ProductService;
